@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup as bs
 from urllib.request import urlopen as uReq
 import requests
 import logging
+import os
 
 logging.basicConfig(filename="scrapper.log" , level=logging.INFO)
 
@@ -18,6 +19,13 @@ def results():
     if request.method=='POST':
         try:
             searchString = request.form['content'].replace(" ","")
+            filename = searchString + ".csv"
+            fold_path:str=os.path.join(os.getcwd(),"artifacts")
+            try:
+                os.makedirs(fold_path,exist_ok=True)
+            except Exception as e:
+                logging.info(e)
+
             flipkart_url = "https://www.flipkart.com/search?q=" + searchString
             uClient = uReq(flipkart_url)
             flipkartPage = uClient.read()
@@ -33,41 +41,47 @@ def results():
             prod_html= bs(prodpage,"html.parser")
             comment_boxes= prod_html.find_all("div",{"class":"_16PBlm"})
 
-            filename = searchString + ".csv"
-            fw=open(filename,"w")          
+            #filename = searchString + ".csv"
+            #fw=open(filename,"w")          
             headers="Product,Customer Name, Rating, Heading, Comment \n"
-            fw.write(headers)
-            reviews=[]
-            for commentbox in comment_boxes:
-                try:
-                    name = commentbox.div.div.find_all("p",{"class":"_2sc7ZR _2V5EHH"})[0].text
-                except:
-                    logging.info("name")
-                try:
-                    rating= commentbox.div.div.div.div.text
-                except:
-                    rating= "No rating"
-                    logging.info("rating")
-                try:
-                    commentHead=commentbox.div.div.div.p.text
-                except:
-                    commentHead= "No comment Head"
-                    logging.info("commentHead")
-                try:
-                    comment=commentbox.div.div.find_all("div",{"class":""}).text
-                except:
-                    comment="No Comments"
-                    logging.info("comment")
+            #fw.write(headers)
+            with open (os.path.join(fold_path,filename),'w') as f:
+                    f.write(headers)
             
-                mydict= {"Product":searchString,"Name":name, "Rating":rating, 
-                        "CommentHead":commentHead ,"Comment":comment}
-                reviews.append(mydict)
-                updates=[str(searchString),", ",str(name),", ",str(rating ),", ",str(commentHead ),", ",str(comment)]
-                fw.writelines(updates)
-                fw.write("\n")
+                    reviews=[]
+                    for commentbox in comment_boxes:
+                        try:
+                            name = commentbox.div.div.find_all("p",{"class":"_2sc7ZR _2V5EHH"})[0].text
+                        except:
+                            logging.info("name")
+                        try:
+                            rating= commentbox.div.div.div.div.text
+                        except:
+                            rating= "No rating"
+                            logging.info("rating")
+                        try:
+                            commentHead=commentbox.div.div.div.p.text
+                        except:
+                            commentHead= "No comment Head"
+                            logging.info("commentHead")
+                        try:
+                            comment=commentbox.div.div.find_all("div",{"class":""}).text
+                        except:
+                            comment="No Comments"
+                            logging.info("comment")
+                    
+                        mydict= {"Product":searchString,"Name":name, "Rating":rating, 
+                                "CommentHead":commentHead ,"Comment":comment}
+                        reviews.append(mydict)
+
+                        updates=[str(searchString),", ",str(name),", ",str(rating ),", ",str(commentHead ),", ",str(comment)]
+                                
+                        f.writelines(updates)
+                        f.write("\n")
+                
 
             logging.info("final result{}".format(reviews))
-            fw.close()
+            f.close()
             return render_template("results.html",reviews=reviews[0:(len(reviews)-1)])
         
         except Exception as e :
@@ -80,6 +94,7 @@ def results():
 
 if __name__=="__main__":
     app.run(host="0.0.0.0")
+
 
     
 
