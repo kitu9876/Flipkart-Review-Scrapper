@@ -1,0 +1,164 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.34:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:31:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:31:46] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:31:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:31:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:'NoneType' object is not subscriptable
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:31:54] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.34:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:36:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:36:37] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:36:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:'NoneType' object is not subscriptable
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:36:42] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.34:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:37:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:37:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:37:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:name
+INFO:root:rating
+INFO:root:commentHead
+INFO:root:comment
+INFO:root:final result[{'Product': 'samsung', 'Name': 'Somasundaram A', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'No Comments'}, {'Product': 'samsung', 'Name': 'Amulya  Mulla', 'Rating': '1', 'CommentHead': 'Very poor', 'Comment': 'No Comments'}, {'Product': 'samsung', 'Name': 'Meera  Devi', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'No Comments'}, {'Product': 'samsung', 'Name': 'Deepan Kumar', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'No Comments'}, {'Product': 'samsung', 'Name': 'Omprakash Prakash ', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'No Comments'}, {'Product': 'samsung', 'Name': 'Manu Sai', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'No Comments'}, {'Product': 'samsung', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'No Comments'}, {'Product': 'samsung', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'No Comments'}, {'Product': 'samsung', 'Name': 'OM  JADON', 'Rating': '1', 'CommentHead': 'Useless product', 'Comment': 'No Comments'}, {'Product': 'samsung', 'Name': 'Virender SINGH', 'Rating': '1', 'CommentHead': 'Horrible', 'Comment': 'No Comments'}, {'Product': 'samsung', 'Name': 'Virender SINGH', 'Rating': 'No rating', 'CommentHead': 'No comment Head', 'Comment': 'No Comments'}]
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:37:28] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:37:28] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:37:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:final result[]
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:38:03] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:38:03] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:38:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:38:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:38:17] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:38:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:name
+INFO:root:rating
+INFO:root:commentHead
+INFO:root:comment
+INFO:root:final result[{'Product': 'iphone13', 'Name': 'Ashish  Kumar', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'No Comments'}, {'Product': 'iphone13', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'No Comments'}, {'Product': 'iphone13', 'Name': 'Shivang Palyal', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'No Comments'}, {'Product': 'iphone13', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'No Comments'}, {'Product': 'iphone13', 'Name': 'Badri Bishal  Pratihari ', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'No Comments'}, {'Product': 'iphone13', 'Name': 'Peris Kumar Bhagat', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'No Comments'}, {'Product': 'iphone13', 'Name': 'Sachin Saini', 'Rating': '4', 'CommentHead': 'Really Nice', 'Comment': 'No Comments'}, {'Product': 'iphone13', 'Name': 'Srinivash Bhoi', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'No Comments'}, {'Product': 'iphone13', 'Name': 'Rishi Raj', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'No Comments'}, {'Product': 'iphone13', 'Name': 'Prasenjit Bar', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': 'No Comments'}, {'Product': 'iphone13', 'Name': 'Prasenjit Bar', 'Rating': 'No rating', 'CommentHead': 'No comment Head', 'Comment': 'No Comments'}]
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:38:30] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:38:30] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:38:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:39:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:39:06] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:39:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:name
+INFO:root:rating
+INFO:root:commentHead
+INFO:root:comment
+INFO:root:final result[{'Product': 'oneplus', 'Name': 'AJAY SINGH', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'No Comments'}, {'Product': 'oneplus', 'Name': 'Asad Ansari', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'No Comments'}, {'Product': 'oneplus', 'Name': 'Srijin Customer', 'Rating': '5', 'CommentHead': 'Super!', 'Comment': 'No Comments'}, {'Product': 'oneplus', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'No Comments'}, {'Product': 'oneplus', 'Name': 'pradeen boss', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': 'No Comments'}, {'Product': 'oneplus', 'Name': 'Sonu  Panwar', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'No Comments'}, {'Product': 'oneplus', 'Name': 'Mr mani Kandan', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': 'No Comments'}, {'Product': 'oneplus', 'Name': 'Neel Patel', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'No Comments'}, {'Product': 'oneplus', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'No Comments'}, {'Product': 'oneplus', 'Name': 'Satyajit Chakraborty', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'No Comments'}, {'Product': 'oneplus', 'Name': 'Satyajit Chakraborty', 'Rating': 'No rating', 'CommentHead': 'No comment Head', 'Comment': 'No Comments'}]
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:39:19] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:39:19] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:39:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:39:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:39:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:39:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:39:30] "[33mGET /realme20 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:39:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:39:40] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:39:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:name
+INFO:root:rating
+INFO:root:commentHead
+INFO:root:comment
+INFO:root:final result[{'Product': 'realme20', 'Name': 'Vishnu. P Vishnu', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': 'No Comments'}, {'Product': 'realme20', 'Name': 'Rajkumar  Gorh', 'Rating': '5', 'CommentHead': 'Super!', 'Comment': 'No Comments'}, {'Product': 'realme20', 'Name': 'VIJAY chauhan', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'No Comments'}, {'Product': 'realme20', 'Name': 'Sahanur Molla', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'No Comments'}, {'Product': 'realme20', 'Name': 'Harsh   Deep ', 'Rating': '3', 'CommentHead': 'Good', 'Comment': 'No Comments'}, {'Product': 'realme20', 'Name': 'Joy Barman', 'Rating': '5', 'CommentHead': 'Terrific purchase', 'Comment': 'No Comments'}, {'Product': 'realme20', 'Name': 'Nandan Dubey', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'No Comments'}, {'Product': 'realme20', 'Name': 'Shilpi Chakraborty', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'No Comments'}, {'Product': 'realme20', 'Name': 'Hirak Customer', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'No Comments'}, {'Product': 'realme20', 'Name': 'Atreyee Gupta', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'No Comments'}, {'Product': 'realme20', 'Name': 'Atreyee Gupta', 'Rating': 'No rating', 'CommentHead': 'No comment Head', 'Comment': 'No Comments'}]
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:39:52] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:39:52] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:39:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:39:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:39:59] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:39:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:final result[]
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:40:10] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:40:10] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:40:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:name
+INFO:root:rating
+INFO:root:commentHead
+INFO:root:comment
+INFO:root:final result[{'Product': 'vivo20', 'Name': 'Flipkart Customer', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': 'No Comments'}, {'Product': 'vivo20', 'Name': 'PRAVAT MONDAL ', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'No Comments'}, {'Product': 'vivo20', 'Name': 'Mohd Rizwan', 'Rating': '4', 'CommentHead': 'Value-for-money', 'Comment': 'No Comments'}, {'Product': 'vivo20', 'Name': 'Flipkart Customer', 'Rating': '4', 'CommentHead': 'Worth the money', 'Comment': 'No Comments'}, {'Product': 'vivo20', 'Name': 'jeya muthu', 'Rating': '4', 'CommentHead': 'Very Good', 'Comment': 'No Comments'}, {'Product': 'vivo20', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'No Comments'}, {'Product': 'vivo20', 'Name': 'Anil M Jadav', 'Rating': '5', 'CommentHead': 'Super!', 'Comment': 'No Comments'}, {'Product': 'vivo20', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'No Comments'}, {'Product': 'vivo20', 'Name': 'Amar Poddar', 'Rating': '4', 'CommentHead': 'Pretty good', 'Comment': 'No Comments'}, {'Product': 'vivo20', 'Name': 'ankit  khandelwal', 'Rating': '3', 'CommentHead': 'Nice', 'Comment': 'No Comments'}, {'Product': 'vivo20', 'Name': 'ankit  khandelwal', 'Rating': 'No rating', 'CommentHead': 'No comment Head', 'Comment': 'No Comments'}]
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:41:00] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:41:00] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:41:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:45:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:45:40] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:45:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:comment
+INFO:root:name
+INFO:root:rating
+INFO:root:commentHead
+INFO:root:comment
+INFO:root:final result[{'Product': 'samsung', 'Name': 'Somasundaram A', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'No Comments'}, {'Product': 'samsung', 'Name': 'Amulya  Mulla', 'Rating': '1', 'CommentHead': 'Very poor', 'Comment': 'No Comments'}, {'Product': 'samsung', 'Name': 'Meera  Devi', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'No Comments'}, {'Product': 'samsung', 'Name': 'Deepan Kumar', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'No Comments'}, {'Product': 'samsung', 'Name': 'Omprakash Prakash ', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'No Comments'}, {'Product': 'samsung', 'Name': 'Manu Sai', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'No Comments'}, {'Product': 'samsung', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'No Comments'}, {'Product': 'samsung', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'No Comments'}, {'Product': 'samsung', 'Name': 'OM  JADON', 'Rating': '1', 'CommentHead': 'Useless product', 'Comment': 'No Comments'}, {'Product': 'samsung', 'Name': 'Virender SINGH', 'Rating': '1', 'CommentHead': 'Horrible', 'Comment': 'No Comments'}, {'Product': 'samsung', 'Name': 'Virender SINGH', 'Rating': 'No rating', 'CommentHead': 'No comment Head', 'Comment': 'No Comments'}]
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:46:35] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:46:35] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2023 21:46:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
